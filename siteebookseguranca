@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segurança na Internet Volume 1 - Compre Agora</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #007bff;
+            color: white;
+            text-align: center;
+            padding: 50px 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 40px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .hero img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .price {
+            font-size: 2em;
+            color: #28a745;
+            text-align: center;
+            margin: 20px 0;
+        }
+        .buy-button {
+            display: inline-block;
+            background-color: #28a745;
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 10px;
+            text-align: center;
+        }
+        .buy-button:hover {
+            background-color: #218838;
+        }
+        .testimonials {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .testimonial {
+            width: 30%;
+            margin: 10px;
+            padding: 10px;
+            background-color: #e9ecef;
+            border-radius: 5px;
+        }
+        .faq {
+            list-style: none;
+            padding: 0;
+        }
+        .faq li {
+            margin-bottom: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        @media (max-width: 768px) {
+            .testimonials {
+                flex-direction: column;
+            }
+            .testimonial {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Compre Agora: Segurança na Internet Volume 1</h1>
+        <p>Seu Guia Essencial para Navegar com Segurança na Web</p>
+    </header>
+
+    <div class="container">
+        <section class="section hero">
+            <h2>Sobre o eBook</h2>
+            <p>Aprenda dicas práticas para proteger seus dados, evitar fraudes e navegar com confiança. Conteúdo completo em formato PDF, pronto para download imediato após a compra.</p>
+            <img src="https://via.placeholder.com/600x400?text=Capa+do+eBook+Seguranca+na+Internet" alt="Capa do eBook Segurança na Internet Volume 1">
+        </section>
+
+        <section class="section">
+            <h2>Benefícios</h2>
+            <ul>
+                <li>Proteja sua privacidade online com técnicas simples.</li>
+                <li>Evite golpes e fraudes digitais.</li>
+                <li>Dicas para navegar com segurança em redes sociais e compras online.</li>
+                <li>Conteúdo acessível e atualizado para todos os níveis.</li>
+            </ul>
+        </section>
+
+        <section class="section">
+            <h2>Preço e Compra</h2>
+            <div class="price">R$ 25,00</div>
+            <p>Escolha sua forma de pagamento e receba o eBook imediatamente após a confirmação!</p>
+            <div>
+                <a href="#pix" class="buy-button">Pagar com Pix</a>
+                <a href="#cartao" class="buy-button">Pagar com Cartão (Crédito/Débito)</a>
+            </div>
+            <div id="pix" style="display: none; margin-top: 20px;">
+                <h3>Pagamento via Pix</h3>
+                <p>Chave Pix: 87999363045 (CPF)</p>
+                <p>Após o pagamento, envie o comprovante para contato@segurancanainternet.com e receba o link de download imediato.</p>
+                <a href="https://drive.google.com/file/d/1example/view?usp=sharing" class="buy-button" onclick="alert('Simulação: Download do eBook enviado!')">Simular Download (Apenas para Teste)</a>
+            </div>
+            <div id="cartao" style="display: none; margin-top: 20px;">
+                <h3>Pagamento via Cartão</h3>
+                <p>Integre com gateways como Mercado Pago ou PagSeguro. Após confirmação, o eBook será enviado automaticamente por e-mail.</p>
+                <a href="https://www.mercadopago.com.br" class="buy-button" target="_blank">Ir para Gateway (Simulação)</a>
+            </div>
+            <script>
+                document.querySelector('a[href="#pix"]').addEventListener('click', function(e) {
+                    e.preventDefault();
+                    document.getElementById('pix').style.display = 'block';
+                    document.getElementById('cartao').style.display = 'none';
+                });
+                document.querySelector('a[href="#cartao"]').addEventListener('click', function(e) {
+                    e.preventDefault();
+                    document.getElementById('cartao').style.display = 'block';
+                    document.getElementById('pix').style.display = 'none';
+                });
+            </script>
+        </section>
+
+        <section class="section">
+            <h2>Depoimentos</h2>
+            <div class="testimonials">
+                <div class="testimonial">
+                    <p>"Incrível! Aprendi a proteger minha conta bancária online. Recomendo!" - João Silva</p>
+                </div>
+                <div class="testimonial">
+                    <p>"Dicas práticas e fáceis de seguir. Meu filho agora navega com mais segurança." - Maria Oliveira</p>
+                </div>
+                <div class="testimonial">
+                    <p>"Conteúdo completo e atual. Vale cada centavo!" - Pedro Santos</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>FAQ</h2>
+            <ul class="faq">
+                <li><strong>Como funciona a entrega?</strong> Imediata após o pagamento confirmado. Você recebe o PDF por e-mail ou link direto.</li>
+                <li><strong>Posso reembolsar?</strong> Compra final, sem reembolso após download, conforme termos de uso.</li>
+                <li><strong>É seguro?</strong> Sim, usamos HTTPS e protegemos seus dados conforme a LGPD.</li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Segurança na Internet. Contato: contato@segurancanainternet.com</p>
+        <p><a href="#" style="color: white;">Política de Privacidade</a> | <a href="#" style="color: white;">Termos de Uso</a></p>
+    </footer>
+</body>
+</html>
