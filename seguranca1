@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Segurança na Internet Volume 1 - Compre Agora</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            background-color: rgba(0, 123, 255, 0.9);
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+        nav {
+            background-color: #333;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            color: #007bff;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .section {
+            margin-bottom: 40px;
+            padding: 30px;
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+        .section:hover {
+            transform: translateY(-5px);
+        }
+        .hero img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        .price {
+            font-size: 2.5em;
+            color: #28a745;
+            text-align: center;
+            margin: 20px 0;
+            font-weight: bold;
+        }
+        .buy-button {
+            display: inline-block;
+            background: linear-gradient(45deg, #28a745, #20c997);
+            color: white;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 50px;
+            margin: 10px;
+            text-align: center;
+            font-weight: bold;
+            transition: background 0.3s ease;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        .buy-button:hover {
+            background: linear-gradient(45deg, #218838, #17a2b8);
+            transform: scale(1.05);
+        }
+        .payment-section {
+            display: none;
+            margin-top: 20px;
+            padding: 20px;
+            background-color: #f8f9fa;
+            border-radius: 8px;
+            border: 1px solid #dee2e6;
+        }
+        .testimonials {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+        .testimonial {
+            width: 30%;
+            margin: 10px;
+            padding: 20px;
+            background-color: #e9ecef;
+            border-radius: 8px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .faq {
+            list-style: none;
+            padding: 0;
+        }
+        .faq li {
+            margin-bottom: 20px;
+            padding: 10px;
+            background-color: #f8f9fa;
+            border-left: 5px solid #007bff;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        footer a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        @media (max-width: 768px) {
+            .testimonials {
+                flex-direction: column;
+            }
+            .testimonial {
+                width: 100%;
+            }
+            header h1 {
+                font-size: 2em;
+            }
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .form-group input, .form-group select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 1em;
+        }
+        .submit-btn {
+            background: #007bff;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+            width: 100%;
+        }
+        .submit-btn:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <a href="#sobre"><i class="fas fa-book"></i> Sobre</a>
+        <a href="#beneficios"><i class="fas fa-star"></i> Benefícios</a>
+        <a href="#comprar"><i class="fas fa-shopping-cart"></i> Comprar</a>
+        <a href="#depoimentos"><i class="fas fa-comments"></i> Depoimentos</a>
+        <a href="#faq"><i class="fas fa-question-circle"></i> FAQ</a>
+    </nav>
+    <header>
+        <h1><i class="fas fa-shield-alt"></i> Segurança na Internet Volume 1</h1>
+        <p>Seu Guia Essencial para Navegar com Segurança na Web</p>
+    </header>
+
+    <div class="container">
+        <section id="sobre" class="section hero">
+            <h2><i class="fas fa-info-circle"></i> Sobre o eBook</h2>
+            <p>Aprenda dicas práticas para proteger seus dados, evitar fraudes e navegar com confiança. Conteúdo completo em formato PDF, pronto para download imediato após a compra. Ideal para iniciantes e profissionais que querem se manter seguros online.</p>
+            <img src="https://via.placeholder.com/800x500/007bff/ffffff?text=Seguranca+na+Internet+Vol+1" alt="Capa do eBook Segurança na Internet Volume 1">
+        </section>
+
+        <section id="beneficios" class="section">
+            <h2><i class="fas fa-check-circle"></i> Benefícios</h2>
+            <ul>
+                <li><i class="fas fa-lock"></i> Proteja sua privacidade online com técnicas simples e eficazes.</li>
+                <li><i class="fas fa-exclamation-triangle"></i> Evite golpes e fraudes digitais em redes sociais e compras.</li>
+                <li><i class="fas fa-globe"></i> Dicas para navegar com segurança em qualquer dispositivo.</li>
+                <li><i class="fas fa-users"></i> Conteúdo acessível e atualizado para todos os níveis de conhecimento.</li>
+            </ul>
+        </section>
+
+        <section id="comprar" class="section">
+            <h2><i class="fas fa-credit-card"></i> Preço e Compra</h2>
+            <div class="price">R$ 25,00</div>
+            <p>Escolha sua forma de pagamento e receba o eBook imediatamente após a confirmação!</p>
+            <div>
+                <a href="#pix" class="buy-button toggle-payment"><i class="fas fa-qrcode"></i> Pagar com Pix</a>
+                <a href="#cartao" class="buy-button toggle-payment"><i class="fas fa-credit-card"></i> Pagar com Cartão (Crédito/Débito)</a>
+            </div>
+            <div id="pix" class="payment-section">
+                <h3><i class="fas fa-qrcode"></i> Pagamento via Pix</h3>
+                <p>Chave Pix: <strong>87999363045</strong> (CPF)</p>
+                <p>Após o pagamento, preencha o formulário abaixo para receber o link de download imediato por e-mail.</p>
+                <form id="pix-form">
+                    <div class="form-group">
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="comprovante">Comprovante de Pagamento (Opcional - Link ou Descrição):</label>
+                        <input type="text" id="comprovante">
+                    </div>
+                    <button type="submit" class="submit-btn"><i class="fas fa-paper-plane"></i> Enviar e Receber eBook</button>
+                </form>
+            </div>
+            <div id="cartao" class="payment-section">
+                <h3><i class="fas fa-credit-card"></i> Pagamento via Cartão</h3>
+                <p>Integre com gateways como Mercado Pago ou PagSeguro. Após confirmação, o eBook será enviado automaticamente por e-mail.</p>
+                <form id="cartao-form">
+                    <div class="form-group">
+                        <label for="nome">Nome Completo:</label>
+                        <input type="text" id="nome" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email-cartao">E-mail:</label>
+                        <input type="email" id="email-cartao" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="cartao-numero">Número do Cartão:</label>
+                        <input type="text" id="cartao-numero" placeholder="1234 5678 9012 3456" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="validade">Validade (MM/AA):</label>
+                        <input type="text" id="validade" placeholder="12/25" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="cvv">CVV:</label>
+                        <input type="text" id="cvv" placeholder="123" required>
+                    </div>
+                    <button type="submit" class="submit-btn"><i class="fas fa-lock"></i> Pagar e Receber eBook</button>
+                </form>
+                <p><small>Nota: Em produção, integre com API de pagamento seguro (ex.: Mercado Pago). Este é um formulário de simulação.</small></p>
+            </div>
+        </section>
+
+        <section id="depoimentos" class="section">
+            <h2><i class="fas fa-comments"></i> Depoimentos</h2>
+            <div class="testimonials">
+                <div class="testimonial">
+                    <p>"Incrível! Aprendi a proteger minha conta bancária online. Recomendo!"</p>
+                    <cite>- João Silva</cite>
+                </div>
+                <div class="testimonial">
+                    <p>"Dicas práticas e fáceis de seguir. Meu filho agora navega com mais segurança."</p>
+                    <cite>- Maria Oliveira</cite>
+                </div>
+                <div class="testimonial">
+                    <p>"Conteúdo completo e atual. Vale cada centavo!"</p>
+                    <cite>- Pedro Santos</cite>
+                </div>
+            </div>
+        </section>
+
+        <section id="faq" class="section">
+            <h2><i class="fas fa-question-circle"></i> FAQ</h2>
+            <ul class="faq">
+                <li><strong>Como funciona a entrega?</strong> Imediata após o pagamento confirmado. Você recebe o PDF por e-mail ou link direto.</li>
+                <li><strong>Posso reembolsar?</strong> Compra final, sem reembolso após download, conforme termos de uso.</li>
+                <li><strong>É seguro?</strong> Sim, usamos HTTPS e protegemos seus dados conforme a LGPD.</li>
+                <li><strong>Preciso de conta?</strong> Não, apenas e-mail para entrega.</li>
+            </ul>
+        </section>
+    </div>
+
+    <footer>
+        <p>&copy; 2023 Segurança na Internet. Contato: <a href="mailto:contato@segurancanainternet.com">contato@segurancanainternet.com</a></p>
+        <p><a href="#">Política de Privacidade</a> | <a href="#">Termos de Uso</a></p>
+    </footer>
+
+    <script>
+        // Toggle payment sections
+        document.querySelectorAll('.toggle-payment').forEach(button => {
+            button.addEventListener('click', function(e) {
+                e.preventDefault();
+                const target = this.getAttribute('href').substring(1);
+                document.querySelectorAll('.payment-section').forEach(section => {
+                    section.style.display = 'none';
+                });
+                document.getElementById(target).style.display = 'block';
+            });
+        });
+
+        // Simulate Pix form submission
+        document.getElementById('pix-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Pagamento via Pix simulado! eBook enviado para ' + document.getElementById('email').value + '. (Em produção, verifique comprovante e envie link real.)');
+            // Aqui você integraria com backend para enviar e-mail com link do eBook
+        });
+
+        // Simulate Card form submission
+        document.getElementById('cartao-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Pagamento via Cartão simulado! eBook enviado para ' + document.getElementById('email-cartao').value + '. (Em produção, processe via gateway.)');
+            // Integre com API de pagamento (ex.: Mercado Pago)
+        });
+    </script>
+</body>
+</html>
